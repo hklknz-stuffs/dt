@@ -195,6 +195,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Disable vsync for cpu rendered apps
+PRODUCT_SYSTEM_PROPERTIES += \
+    debug.cpurend.vsync=false
+
 # Display post-processing
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.qualcomm.cabl=0 \
