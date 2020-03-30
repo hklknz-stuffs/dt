@@ -450,6 +450,13 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <version>2.2</version>
         <interface>
             <name>IPerf</name>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.qseecom</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IQSEECom</name>
             <instance>default</instance>
         </interface>
     </hal>
