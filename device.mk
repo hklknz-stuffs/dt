@@ -178,6 +178,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.data.df.dev_name=rmnet_usb0
 
+# Dalvik
+PRODUCT_SYSTEM_PROPERTIES += \
+    dalvik.vm.dex2oat64.enabled=true
+
 # Device fstab
 PRODUCT_PACKAGES += \
     fstab.qcom
