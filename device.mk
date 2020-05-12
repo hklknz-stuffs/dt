@@ -165,7 +165,8 @@ PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sensors.sh \
-    init.qcom.sh
+    init.qcom.sh \
+    init.qti.dcvs.sh
 
 # Context Hub
 PRODUCT_PACKAGES += \
