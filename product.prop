@@ -18,3 +18,6 @@ ro.build.shutdown_timeout=2
 
 # App
 ro.launcher.blur.appLaunch=0
+
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
