@@ -498,6 +498,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.radio.flexmap_type=none \
     persist.vendor.radio.force_on_dc=true \
+    persist.vendor.radio.mt_sms_ack=30 \
     persist.vendor.radio.report_codec=1 \
     ro.com.android.dataroaming=true
 
