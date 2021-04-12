@@ -374,8 +374,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Network manager
 PRODUCT_VENDOR_PROPERTIES += \
-    persist.vendor.data.iwlan.enable=true \
-    ro.telephony.iwlan_operation_mode=legacy
+    persist.vendor.data.iwlan.enable=true
 
 # Neural Network
 PRODUCT_PACKAGES += \
