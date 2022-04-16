@@ -281,7 +281,6 @@ PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 PRODUCT_PACKAGES += \
     BerylliumCarrierConfigOverlay \
     BerylliumFrameworksOverlay \
-    BerylliumNoCutoutOverlay \
     BerylliumSettingsOverlay \
     BerylliumSystemUIOverlay \
     BerylliumTelephonyOverlay \
