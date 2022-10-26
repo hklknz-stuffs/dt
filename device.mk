@@ -565,3 +565,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.ril.disable.power.collapse=0 \
     power.saving.mode=1 \
     pm.sleep_mode=1
+
+# Fling
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.vendor.qti.cgroup_follow.enable=true \
+    persist.vendor.qti.inputopts.enable=true \
+    persist.vendor.qti.inputopts.movetouchslop=0.6 \
+    ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
