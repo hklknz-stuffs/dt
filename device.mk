@@ -557,3 +557,11 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Multi-Gen
 PRODUCT_VENDOR_PROPERTIES += \
     persist.device_config.mglru_native.lru_gen_config=core
+
+# Power-saving Props
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.vendor.use_data_netmgrd=true \
+    ro.vold.umsdirtyratio=20 \
+    ro.ril.disable.power.collapse=0 \
+    power.saving.mode=1 \
+    pm.sleep_mode=1
