@@ -824,6 +824,9 @@
          available to the system.-->
     <bool name="config_freeformWindowManagement">true</bool>
 
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
+
     <!-- Boost Framework -->
     <bool name="config_supportsBoostFramework">true</bool>
 </resources>
