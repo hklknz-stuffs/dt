@@ -113,7 +113,7 @@ ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
-vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,org.lineageos.aperture,org.lineageos.aperture.dev
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,co.aospa.sense
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
