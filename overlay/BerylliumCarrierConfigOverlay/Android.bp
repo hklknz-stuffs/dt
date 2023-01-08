@@ -7,6 +7,5 @@
 runtime_resource_overlay {
     aaptflags: ["--keep-raw-values"],
     name: "BerylliumCarrierConfigOverlay",
-    sdk_version: "current",
     vendor: true,
 }
