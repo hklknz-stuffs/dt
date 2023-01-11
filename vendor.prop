@@ -139,6 +139,7 @@ vendor.display.normal_noc_efficiency_factor=0.85
 vendor.display.use_smooth_motion=1
 vendor.display.disable_rotator_downscale=1
 vendor.display.perf_hint_window=50
+vendor.display.disable_metadata_dynamic_fps=1
 vendor.perf.framepacing.enable=1
 
 # DPM
