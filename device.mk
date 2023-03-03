@@ -219,6 +219,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true
 
+# DebugFS
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -303,6 +306,10 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_beryllium
+
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
 
 # Listen
 PRODUCT_VENDOR_PROPERTIES += \
