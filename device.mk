@@ -515,6 +515,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# SPU
+PRODUCT_VENDOR_PROPERTIES += \
+    vendor.gatekeeper.disable_spu=true
+
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 
