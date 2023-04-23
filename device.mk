@@ -205,6 +205,20 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
     ro.vendor.display.sensortype=2
 
+# DisplayProp
+PRODUCT_SYSTEM_PROPERTIES += \
+    vendor.display.comp_mask=0 \
+    vendor.display.disable_excl_rect=0 \
+    vendor.display.disable_excl_rect_partial_fb=1 \
+    vendor.display.disable_hw_recovery_dump=1 \
+    vendor.display.disable_offline_rotator=1 \
+    vendor.display.disable_scaler=0 \
+    vendor.display.enable_async_powermode=0 \
+    vendor.display.enable_optimize_refresh=1 \
+    vendor.display.enable_posted_start_dyn=1 \
+    vendor.display.normal_noc_efficiency_factor=0.85 \
+    vendor.display.use_smooth_motion=1
+
 # DPM
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.dpm.loglevel=0
@@ -254,6 +268,8 @@ PRODUCT_SYSTEM_PROPERTIES += \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_phase_offset_ns=500000 \
     debug.sf.latch_unsignaled=1 \
+    persist.sys.sf.color_mode=0 \
+    persist.sys.sf.color_saturation=1.0 \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=2 \
     ro.surface_flinger.max_virtual_display_dimension=4096 \
@@ -263,6 +279,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno \
+    vendor.gralloc.disable_ubwc=0 \
     ro.opengles.version=196610
 
 # Health
