@@ -116,7 +116,7 @@ vendor.qcom.bluetooth.soc=cherokee
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,co.aospa.sense
 
 # Chipset
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=SDM845
 
 # CNE
