@@ -155,6 +155,7 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.uclamp.rc \
     ueventd.qcom.rc \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
