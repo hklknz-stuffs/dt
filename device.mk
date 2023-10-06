@@ -452,6 +452,11 @@ TARGET_COMMON_QTI_COMPONENTS += \
     vibrator \
     wfd
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
+
 TARGET_GPS_COMPONENT_VARIANT := gps
 
 # RCS
