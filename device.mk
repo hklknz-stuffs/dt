@@ -513,6 +513,8 @@ PRODUCT_PACKAGES += \
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 27
 
