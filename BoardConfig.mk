@@ -62,8 +62,8 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 KERNEL_CUSTOM_LLVM := true
 TARGET_KERNEL_APPEND_DTB := true
-TARGET_KERNEL_CONFIG := vendor/xiaomi/beryllium_defconfig
-TARGET_KERNEL_VERSION := 4.9
+TARGET_KERNEL_VERSION := 4.19
+TARGET_KERNEL_CONFIG += vendor/sdm845-perf_defconfig vendor/xiaomi/beryllium.config
 
 # Light
 TARGET_PROVIDES_LIBLIGHT := true
