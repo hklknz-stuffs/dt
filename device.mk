@@ -372,6 +372,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
     debug.stagefright.omx_default_rank=0 \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.mm.enable.prefetch=true
+
 # Native libraries whitelist
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
