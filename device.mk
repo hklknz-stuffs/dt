@@ -117,6 +117,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.use.sw.alac.decoder=true \
     vendor.audio.use.sw.ape.decoder=true
 
+# App
+PRODUCT_PROUDCT_PACKAGES += \
+    ro.launcher.blur.appLaunch=0
+
 # Bluetooth
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.bluetooth.a2dp_offload.supported=true
