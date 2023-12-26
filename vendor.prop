@@ -202,6 +202,9 @@ ro.vendor.audio.soundtrigger.hist.duration=1500
 # Media
 persist.mm.enable.prefetch=true
 
+# Multi-Gen LRU
+persist.device_config.mglru_native.lru_gen_config=core
+
 # Netflix custom property
 ro.netflix.bsp_rev=Q845-14477-1
 
