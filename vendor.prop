@@ -165,6 +165,9 @@ ro.hardware.vulkan=adreno
 vendor.gralloc.disable_ubwc=0
 vendor.opengles.version=196610
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
