@@ -573,3 +573,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.qti.inputopts.movetouchslop=0.6 \
     ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
+# Logs
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.log.tag.OpenGLRenderer=S
