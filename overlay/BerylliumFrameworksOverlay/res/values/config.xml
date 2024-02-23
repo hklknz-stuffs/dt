@@ -823,4 +823,7 @@
          The duplication is necessary, because this information is used before the features are
          available to the system.-->
     <bool name="config_freeformWindowManagement">true</bool>
+
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
 </resources>
