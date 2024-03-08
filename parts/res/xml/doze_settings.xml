@@ -47,7 +47,7 @@
             android:title="@string/pick_up_gesture_title"
             android:summary="@string/pick_up_gesture_summary" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="gesture_raise_to_wake"
             android:defaultValue="false"
             android:disableDependentsState="true"
