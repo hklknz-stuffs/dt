@@ -44,6 +44,8 @@ ro.fastbootd.available=true
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
 # Graphics
+debug.hwui.target_cpu_time_percent=30
+debug.hwui.use_hint_manager=true
 debug.sf.auto_latch_unsignaled=0
 debug.sf.early_app_phase_offset_ns=500000
 debug.sf.early_gl_app_phase_offset_ns=15000000
