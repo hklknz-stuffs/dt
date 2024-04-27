@@ -16,6 +16,7 @@ on boot
     chmod 660 /sys/class/leds/white/start_idx
 
 service vendor.light-xiaomi_sdm845 /vendor/bin/hw/android.hardware.lights-service.xiaomi_sdm845
+    override
     class hal
     user system
     group system
