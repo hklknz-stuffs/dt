@@ -7,6 +7,5 @@
 runtime_resource_overlay {
     name: "BerylliumNoCutoutOverlay",
     theme: "DisplayCutoutNoCutout",
-    sdk_version: "current",
     product_specific: true,
 }

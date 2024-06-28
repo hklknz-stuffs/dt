@@ -6,6 +6,5 @@
 
 runtime_resource_overlay {
     name: "BerylliumSystemUIOverlay",
-    sdk_version: "current",
     vendor: true,
 }
