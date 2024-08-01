@@ -209,7 +209,8 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.vendor.display.ad=1 \
     ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg \
     ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
-    ro.vendor.display.sensortype=2
+    ro.vendor.display.sensortype=2 \
+    vendor.display.disable_scaler=0
 
 # DPM
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
