@@ -753,6 +753,10 @@ vendor/bin/pm-service|bd51743ad843fad38286500dfda0c4433d0df692
 vendor/lib64/libperipheral_client.so|371cc38073c9d9bf8614f992e57a5a9891691191
 vendor/lib64/libspcom.so|14f69e1c6ad4a6bbb5ea0b7e38e027ef1e7fc12a
 
+# Protobuf - from spacewar - qssi-user-14-UP1A.231005.007-2407051617
+vendor/lib64/libprotobuf-cpp-full-3.9.1.so|68ed446d0690ee4871ca3522c63d426d3c798514
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so|a59cadc480fe326044552f5930196f8970f6fbd1
+
 # Power-off alarm - from caymanslm - SKQ1.211103.001
 product/app/PowerOffAlarm/PowerOffAlarm.apk:system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|f0a86fc11b38c059912303857bc4c79155430bcc
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|37b4999095331f4f3dd6c118ee0bdea4bdf7f003
