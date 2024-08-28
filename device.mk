@@ -398,6 +398,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# OEM Unlock reporting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=1
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPABerylliumFrameworksOverlay \
