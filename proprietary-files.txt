@@ -814,8 +814,8 @@ vendor/bin/qrtr-ns|298a37fad83da32a8a7bbd914cb1afccaa079eba
 vendor/bin/qti|7ee1b06bfa51d2a8e0d76c889aea1e7a65e94069
 vendor/bin/rmt_storage|358c00cfe1713ab87b38a0444e6de6d965529a51
 vendor/bin/tftp_server|38847c960ca1dc54dfdec67ac4646f9e4aa37e9d
-vendor/etc/data/dsi_config.xml|85f76668d6b6f87402c534f284c286676edefa93
-vendor/etc/data/netmgr_config.xml|b670492f2a29115d5c00c1ed44d53da4d216e8a4
+vendor/etc/data/dsi_config.xml;FIX_XML|85f76668d6b6f87402c534f284c286676edefa93
+vendor/etc/data/netmgr_config.xml;FIX_XML|b670492f2a29115d5c00c1ed44d53da4d216e8a4
 vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
 vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
 vendor/etc/init/init-qcril-data.rc|890ac72fa49d0e52a263175a7b5b550539287800
