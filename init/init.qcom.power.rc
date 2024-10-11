@@ -169,6 +169,7 @@ on enable-low-power
     write /proc/sys/kernel/sched_group_upmigrate 100
     write /proc/sys/kernel/sched_group_downmigrate 95
     write /proc/sys/kernel/sched_walt_rotate_big_tasks 1
+    write /proc/sys/kernel/sched_autogroup_enabled 1
 
     # Enable bus-dcvs
     write /sys/class/devfreq/soc:qcom,cpubw/governor "bw_hwmon"
